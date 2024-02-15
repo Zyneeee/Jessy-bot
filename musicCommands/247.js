@@ -8,7 +8,7 @@ const connections = new Map();
 const reconnectIntervals = new Map();
 
 module.exports = {
-  name: '247',
+  name: '24/7',
   description: 'Set or unset a 24/7 radio channel for the bot',
   execute: async (message, args) => {
     const voiceChannel = message.member.voice.channel;
