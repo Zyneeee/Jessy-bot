@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
     name: 'serverinfo',
-    aliases: ['server', 'sinfo'],
+    aliases: ['server', 'info'],
     description: 'Get information about server',
     execute(message, args) {
         // Check if a user was mentioned in the command, or use the message author as the default user
