@@ -3,7 +3,7 @@ const { ButtonStyle } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
   name: 'help',
-  aliases: ['hlp', 'h'],
+  aliases: ['h'],
   description: 'Shows a list of available commands',
   execute(message, args) {
     const botUser = message.client.user;
@@ -28,7 +28,7 @@ module.exports = {
         // Music commands category
         {
           name: '▶️  Music',
-          value: '```play/p| skip/s | history/h | volume/v | pause/stop | resume | 24/7``',
+          value: '```play/p| skip/s | history/h | volume/v | pause/stop | resume | 24/7```',
           inline: true,
         },
         //fun category
