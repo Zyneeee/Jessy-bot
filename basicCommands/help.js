@@ -13,7 +13,7 @@ module.exports = {
       .setColor('#2b71ec')
       .setAuthor({
         name: 'Hey it Me Jessy Im here to Help You',
-        iconURL: '', 
+        iconURL: 'https://cdn.discordapp.com/attachments/1187377061959045181/1207719172570619915/95c842110d8d7e60a852fdc14150c771.jpg?ex=65e0ab21&is=65ce3621&hm=74c8324881efbb0899ed80d6f5a92ae11b255d877dc0549f7d1b17af422fbd1c&', 
         url: 'https://discord.gg'
     })
      
@@ -22,37 +22,37 @@ module.exports = {
         // Basic commands category
         {
           name: '▶️  Basic',
-          value: '```avatar```, ```owner```, ```support```, ```invite```, ```userinfo```',
+          value: '```avatar/av | owner | invite | userinfo```',
           inline: true,
         },
         // Music commands category
         {
           name: '▶️  Music',
-          value: '```play```, ```stop```, `history`,```volume```,```pause```,```resume```,```24/7``',
+          value: '```play/p| stop/s | history/h | volume/v | pause | resume | 24/7``',
           inline: true,
         },
         //fun category
         {
           name: '▶️  Fun',
-          value: ' ```ascii```, ```joke```, ```meme```, ```roll```, `animecommands`',
+          value: '```ascii | joke | meme | roll```',
           inline: true,
         },
         //image category
         {
           name: '▶️  Image',
-          value: '```cat```, ```dog```, ```panda```',
+          value: '```cat | dog | panda```',
           inline: true,
         },
         //anime category
         {
           name: '▶️  Anime',
-          value: '```hug```, ```slap```, ```pat```, ```kiss```, ```sad```, ```bonk```, ```bully```, ```blush```, ```bored```, ```cry```, ```dance```, ```scream```, ```highfive```, ```stare```, ```wave```, ```thinking```, ```wink```, ```yes```, ```cuddle```, ```nervous```',
+          value: '```hug | slap | pat | kiss | sad | bonk | bully | blush | bored | cry | dance | scream | highfive | stare | wave | thinking | wink | yes | cuddle | nervous```',
           inline: true,
         },
         // Utility commands category
         {
           name: '▶️  Utility',
-          value: '```kick```, ```ban```, ```serverinfo```, ```clear```, ```uptime```',
+          value: '```kick | ban | info | clear | uptime```',
           inline: true,
         }
       )
