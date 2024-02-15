@@ -5,6 +5,7 @@ const { queue } = require('./play');
 
 module.exports = {
   name: 'skip',
+  allies: ['s'],
   description: 'Skip the current song',
   async execute(message, args) {
     const voiceChannel = message.member.voice.channel;
