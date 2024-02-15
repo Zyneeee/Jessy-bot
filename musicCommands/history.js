@@ -3,6 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 const db = require("../mongodb");
 module.exports = {
   name: 'history',
+  allies: ['h'],
   description: 'Show the history of played songs',
   execute(message) {
     const history = getHistory();
