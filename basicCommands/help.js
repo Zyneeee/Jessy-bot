@@ -22,7 +22,7 @@ module.exports = {
         // Basic commands category
         {
           name: '▶️  Basic',
-          value: '``` avatar | owner | invite | userinfo ```',
+          value: '``` avatar | owner | userinfo ```',
           inline: true,
         },
         // Music commands category
