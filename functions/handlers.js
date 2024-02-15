@@ -1,5 +1,5 @@
 const status = "AUTOMATIC";
-const botName = "🌇 MULTI MUSIX";
+const botName = "Jessy";
 const rtxText = "RTX";
 const version = "Latest@ v1.2"; 
 const startTime = Date.now();
