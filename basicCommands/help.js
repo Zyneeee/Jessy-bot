@@ -12,47 +12,47 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setColor('#2b71ec')
       .setAuthor({
-        name: 'Im here to Help!',
-        iconURL: 'https://cdn.discordapp.com/attachments/1175487983915376662/1175667506791325706/communication.png?ex=656c10b0&is=65599bb0&hm=e378f1b355a2401bcab504b08a0766001d6b7c090c91ce0a7a7a87c868feb955&', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        name: 'Hey it Me Jessy Im here to Help You',
+        iconURL: '', 
+        url: 'https://discord.gg'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [RTX](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Zxy.]**\n\n__**COMMANDS :**__ `)
       .addFields(
         // Basic commands category
         {
           name: '▶️  Basic',
-          value: '`avatar`, `owner`, `support`, `invite`, `userinfo`',
+          value: '```avatar```, ```owner```, ```support```, ```invite```, ```userinfo```',
           inline: true,
         },
         // Music commands category
         {
           name: '▶️  Music',
-          value: '`play`, `stop`, `history`,`volume`,`pause`,`resume`,`247`',
+          value: '```play```, ```stop```, `history`,```volume```,```pause```,```resume```,```24/7``',
           inline: true,
         },
         //fun category
         {
           name: '▶️  Fun',
-          value: ' `ascii`, `joke`, `meme`, `roll`, `animecommands`',
+          value: ' ```ascii```, ```joke```, ```meme```, ```roll```, `animecommands`',
           inline: true,
         },
         //image category
         {
           name: '▶️  Image',
-          value: '`cat`, `dog`, `panda`',
+          value: '```cat```, ```dog```, ```panda```',
           inline: true,
         },
         //anime category
         {
           name: '▶️  Anime',
-          value: '`hug`, `slap`, `pat`, `kiss`',
+          value: '```hug```, ```slap```, ```pat```, ```kiss```',
           inline: true,
         },
         // Utility commands category
         {
           name: '▶️  Utility',
-          value: '`kick`, `ban`, `serverinfo`, `clear`, `uptime`',
+          value: '```kick```, ```ban```, ```serverinfo```, ```clear```, ```uptime```',
           inline: true,
         }
       )
@@ -61,17 +61,17 @@ module.exports = {
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://www.youtube.com')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
+      .setURL('https://discord.gg')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
+      .setURL('https://replit.com')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
