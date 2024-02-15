@@ -22,13 +22,13 @@ module.exports = {
         // Basic commands category
         {
           name: '▶️  Basic',
-          value: '``` av | owner | invite | userinfo ```',
+          value: '``` avatar | owner | invite | userinfo ```',
           inline: true,
         },
         // Music commands category
         {
           name: '▶️  Music',
-          value: '``` p | s | h | v | stop | resume | 24/7 ```',
+          value: '``` play | skip | history | volume | stop | resume | 24/7 ```',
           inline: true,
         },
         //fun category
