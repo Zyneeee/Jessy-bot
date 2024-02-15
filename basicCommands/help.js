@@ -46,7 +46,7 @@ module.exports = {
         //anime category
         {
           name: '▶️  Anime',
-          value: '```hug```, ```slap```, ```pat```, ```kiss```',
+          value: '```hug```, ```slap```, ```pat```, ```kiss```, ```sad```, ```bonk```, ```bully```, ```blush```, ```bored```, ```cry```, ```dance```, ```scream```, ```highfive```, ```stare```, ```wave```, ```thinking```, ```wink```, ```yes```, ```cuddle```, ```nervous```',
           inline: true,
         },
         // Utility commands category
