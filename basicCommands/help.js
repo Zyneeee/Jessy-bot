@@ -46,13 +46,13 @@ module.exports = {
         //anime category
         {
           name: '▶️  Anime',
-          value: '```hug | slap | pat | kiss | sad | bonk | bully | bored | cry | wink | cuddle ```',
+          value: '```anime | hug | slap | pat | kiss | sad | bonk | bully | cry | wink | cuddle ```',
           inline: true,
         },
         // Utility commands category
         {
           name: '▶️  Utility',
-          value: '```kick | ban | info | clear | uptime ```',
+          value: '```kick | ban | info | uptime ```',
           inline: true,
         }
       )
