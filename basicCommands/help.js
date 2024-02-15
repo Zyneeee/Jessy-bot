@@ -28,7 +28,7 @@ module.exports = {
         // Music commands category
         {
           name: '▶️  Music',
-          value: '``` play | skip | history | volume | stop | resume | 24/7 ```',
+          value: '``` play | skip | history | volume | pause | resume | 24/7 ```',
           inline: true,
         },
         //fun category
