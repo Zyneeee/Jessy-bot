@@ -96,7 +96,7 @@ async function playSong(connection, searchQuery, message) {
       .setAuthor({
         name: 'Currently playing a Track',
         iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        url: 'https://discord.gg/'
       })
       .setDescription(`\n ‎ \n▶️ **Details :** [${video.title}](${youtubeLink})\n▶️ **Enjoy the Ultimate YouTube Music Experience ** \n▶️ **If link breaks playback try to give query**`)
       .setImage(video.thumbnails.high.url) 
@@ -125,7 +125,7 @@ function pausePlayback() {
       .setAuthor({
           name: 'Playback Paused!',
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488720519049337/pause.png?ex=656b6a2e&is=6558f52e&hm=6695d8141e37330b5426f146ec6705243f497f95f08916a40c1db582c6e07d7e&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/'
         })
       .setDescription('**Halt the beats! Music taking a break..**')
       .setColor('#2b71ec');
@@ -145,7 +145,7 @@ function resumePlayback() {
        .setAuthor({
           name: 'Playback Resumed!',
           iconURL: 'https://cdn.discordapp.com/attachments/1175488636033175602/1175488720762310757/play.png?ex=656b6a2e&is=6558f52e&hm=ae4f01060fe8ae93f062d6574ef064ca0f6b4cf40b172f1bd54d8d405809c7df&',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: 'https://discord.gg/'
         })
       .setDescription('**Back in action! Let the beats roll..**')
       .setColor('#2b71ec');
@@ -158,6 +158,7 @@ function resumePlayback() {
 
 module.exports = {
   name: 'play',
+  allies: ['p'],
   description: 'Play music from YouTube',
   execute: async (message, args) => {
     const voiceChannel = message.member.voice.channel;
