@@ -22,37 +22,37 @@ module.exports = {
         // Basic commands category
         {
           name: '▶️  Basic',
-          value: '```avatar/av | owner | invite | userinfo```',
+          value: '```avatar/av | owner | invite | userinfo ```',
           inline: true,
         },
         // Music commands category
         {
           name: '▶️  Music',
-          value: '```play/p| skip/s | history/h | volume/v | pause/stop | resume | 24/7```',
+          value: '```play/p| skip/s | history/h | volume/v | pause/stop | resume | 24/7 ```',
           inline: true,
         },
         //fun category
         {
           name: '▶️  Fun',
-          value: '```ascii | joke | meme | roll```',
+          value: '```ascii | joke | meme | roll ```',
           inline: true,
         },
         //image category
         {
           name: '▶️  Image',
-          value: '```cat | dog | panda```',
+          value: '```cat | dog | panda ```',
           inline: true,
         },
         //anime category
         {
           name: '▶️  Anime',
-          value: '```hug | slap | pat | kiss | sad | bonk | bully | blush | bored | cry | dance | scream | highfive | stare | wave | thinking | wink | yes | cuddle | nervous```',
+          value: '```hug | slap | pat | kiss | sad | bonk | bully | bored | cry | wink | cuddle ```',
           inline: true,
         },
         // Utility commands category
         {
           name: '▶️  Utility',
-          value: '```kick | ban | info | clear | uptime```',
+          value: '```kick | ban | info | clear | uptime ```',
           inline: true,
         }
       )
