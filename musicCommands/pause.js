@@ -3,6 +3,7 @@ const playModule = require('./play.js');
 
 module.exports = {
   name: 'pause',
+  allies: ['stop'],
   description: 'Pause the music playback',
   execute: (message, args) => {
     const currentConnection = playModule.getCurrentConnection();
